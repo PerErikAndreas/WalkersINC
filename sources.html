@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WALKERS INC</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>SKA TESTA LITE BILDJÄVLAR</h1>
+
+      <!-- <img
+        src="./img/infocard_bike.png"
+        srcset="
+          ./img/WWF_We_Love_Cities(All-in-One_City)_600.png   600w,
+          ./img/WWF_We_Love_Cities(All-in-One_City)_804.png   800w,
+          ./img/WWF_We_Love_Cities(All-in-One_City)_1026.png 1026w,
+          ./img/WWF_We_Love_Cities(All-in-One_City)_1212.png 1212w
+        "
+        alt="landscape illustration"
+      /> -->
+
+      <!-- <img
+        src="./img/infocard_bike.png"
+        srcset="
+          ./img/allabout.png   600w,
+          ./img/food.png       800w,
+          ./img/windpower.png 1026w,
+          ./img/trashcans.png 1212w
+        "
+        sizes="70vmin"
+        alt="landscape illustration"
+      /> -->
+
+      <picture>
+        <source
+          type="image/png"
+          media="(min-width: 1026px) and (max-width: 1400px)"
+          srcset="./img/WWF_We_Love_Cities(All-in-One_City)_1212.png"
+        />
+        <source
+          type="image/png"
+          media="(min-width: 801px) and (max-width: 1025px)"
+          srcset="./img/WWF_We_Love_Cities(All-in-One_City)_1026.png"
+        />
+        <source
+          type="image/png"
+          media="(min-width: 601px) and (max-width: 799px)"
+          srcset="./img/WWF_We_Love_Cities(All-in-One_City)_804.png"
+        />
+        <source
+          type="image/png"
+          media="(max-width: 600px)"
+          srcset="./img/WWF_We_Love_Cities(All-in-One_City)_600.png"
+        />
+        <img src="./img/allabout.png" />
+      </picture>
+    </main>
+  </body>
+</html>

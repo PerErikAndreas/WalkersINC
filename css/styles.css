@@ -4,3 +4,8 @@ body {
 h1 {
     font-family: monospace;
 }
+
+img {
+    background-color: pink;
+    width: 100%;
+}
